@@ -113,7 +113,7 @@ resource "aws_instance" "example_vm" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "moshe-updated-vm"
+    Name = "moshe-vm"
   }
 
   # Lookup the correct AMI based on the region
