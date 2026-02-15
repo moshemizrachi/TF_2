@@ -37,9 +37,12 @@ variable "aws_amis" {
     us-west-2 = "ami-04f798ca92cc13f74"
     eu-west-1 = "ami-00d464afa64e1fc69"
   }
-}
+ }
 
 variable "instance_type" {
   type = string
   description = "instance flavor type for EC2"
 }
+
+
+
